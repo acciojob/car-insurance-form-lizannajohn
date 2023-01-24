@@ -1,2 +1,5 @@
-
 /* Your CSS Code here. */
+.inputs .input-items input
+{
+    margin-left: 10px;
+}
