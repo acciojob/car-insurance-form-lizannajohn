@@ -11,22 +11,22 @@
 
 	<form method="post">
 		<label for="name"> Name: </label>
-		<input type="text" name="Name" id="name" placeholder="E.g.: John Doe">
+		<input type="text" name="name" id="name" placeholder="E.g.: John Doe" required>
 		<br><br>
 
 		<label for="email"> Email: </label>
-		<input type="text" name="Name" id="name" placeholder="E.g.: abc@xyz.com">
+		<input type="email" name="email" id="name" placeholder="E.g.: abc@xyz.com" required>
 		<br><br>
 
 		<label for="gender"> Gender: </label>
-		<input type="radio" name="gender" id="male">
+		<input type="radio" name="gender" id="male" required>
 		<label for="male"> Male </label>
-		<input type="radio" name="gender" id="female">
+		<input type="radio" name="gender" id="female" required>
 		<label for="female"> Female </label>
 		<br><br>
 
 		<label for="carbrand"> Car Brands: </label>
-		<select name="carbrands" id="cars">
+		<select name="carbrands" id="cars" required>
 			<option value="bmw"> BMW </option>
 			<option value="audi"> Audi </option>
 			<option value="mercedes"> Mercedes </option>
@@ -34,16 +34,17 @@
 		<br><br>
 		
 		<label for="carage"> Car Age: </label>
-		<input type="number" name="car age" id="carage">
+		<input type="number" name="carage" id="carage">
 		<br><br>
 
-		<label for="purchasedate"> Date of Purchase: </label>
-		<input type="date" name="dop" id="dop">
+		<label for="dop"> Date of Purchase: </label>
+		<input type="date" name="dop" id="dop" required>
 		<br><br>
 
-		<label for="name"> Password: </label>
-		<input type="password" name="pwd" id="password">
+		<label for="password"> Password: </label>
+		<input type="password" name="password" id="password" required>
 		<br><br>
+		
 		<input type="submit" value="Submit">
 	</form>
 
